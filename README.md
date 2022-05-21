@@ -7,3 +7,8 @@ Chronology is the next, best scheduler to structure your day and maximize effici
 - Fully functional timeline app
 - Automatic reminders
 - The ability to set a daily schedule
+- A text editor on the side
+- A rolling notification display
+
+Diagram of UI
+uiprototype.png
