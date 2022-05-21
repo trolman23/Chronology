@@ -11,4 +11,4 @@ Chronology is the next, best scheduler to structure your day and maximize effici
 - A rolling notification display
 
 Diagram of UI
-uiprototype.png
+https://i.ibb.co/WpvVkck/uiprototype.png
