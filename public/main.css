@@ -1,0 +1,30 @@
+body {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: blueviolet;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.main-content {
+    display: flex;
+    height: 100%;
+}
+
+.editor {
+    flex: 1;
+    padding: 50px;
+    border: 0;
+    resize: none;
+    background-color: violet;
+}
+.preview {
+    flex: 1;
+    padding: 50px;
+    border: 0;
+    background-color: rgb(241, 181, 241);
+}
