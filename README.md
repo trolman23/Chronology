@@ -10,5 +10,5 @@ Chronology is the next, best scheduler to structure your day and maximize effici
 - A text editor on the side
 - A rolling notification display
 
-Diagram of UI
-https://i.ibb.co/WpvVkck/uiprototype.png
+# Diagram of UI
+![the image] (https://i.ibb.co/WpvVkck/uiprototype.png)
