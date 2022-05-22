@@ -15,6 +15,3 @@ setInterval(() => {
     document.getElementById("pofd").innerHTML = percent.toPrecision(4)*100 + '%';
     pbar.style.width = percent.toPrecision(4)*100 + '%';
 }, 1000);
-
-
-
