@@ -1,0 +1,27 @@
+body {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#5FD361;
+    background-color: #352A2A;
+}
+
+html,
+body {  
+    height: 100%;
+}
+
+.tdisplay {
+    font-size: 90px;
+    overflow: auto;
+}
+
+.progress-bar {
+    width: 1%;
+    height: 30px;
+    background-color: #5FD361;
+}
+
+.pbardisplay {
+    font-size: 16px;
+}
