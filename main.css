@@ -82,22 +82,10 @@ body {
     padding: 50px;
     width: 100%;
     height: auto;
-    text-align: center;
-    display: inline-block;
     background-color: #2B2222;
     color: #5FD361;
 }
 
-.event-text {
-    padding: 50px;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    display: inline-block;
-    color: #5FD361;
-    font-size: 16px;
-    text-decoration: none;
-}
 
 .event-button {
   background-color: #352A2A;
