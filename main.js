@@ -42,6 +42,7 @@ setInterval(() => {
     pbar.style.width = percent.toPrecision(4)*100 + '%';
 }, 1000);
 
+// why isn't this here?
 button.addEventListener("click", evt => {
     const tag = document.createElement("p");
     const styling = document.createTextNode(eventName.value + " @ " + eventTime.value);
