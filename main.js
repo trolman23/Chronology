@@ -2,6 +2,10 @@ const editor = document.querySelector(".editor");
 const preview = document.querySelector(".preview");
 const timeDisplay = document.querySelector(".td");
 const pbar = document.querySelector(".progress-bar");
+const button = document.querySelector(".event-button");
+const events = document.querySelector(".event-bar");
+const eventName = document.querySelector(".event-name");
+const eventTime = document.querySelector(".event-time");
 const converter = new showdown.Converter();
 
 const render = (value) => {
@@ -38,3 +42,10 @@ setInterval(() => {
     pbar.style.width = percent.toPrecision(4)*100 + '%';
 }, 1000);
 
+button.addEventListener("click", evt => {
+    const tag = document.createElement("p");
+    const styling = document.createTextNode(eventName.value + " @ " + eventTime.value);
+    tag.appendChild(styling);
+    events.appendChild(tag);
+    console.log(evt.target);
+});

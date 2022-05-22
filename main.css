@@ -82,6 +82,64 @@ body {
     padding: 50px;
     width: 100%;
     height: auto;
+    text-align: center;
+    display: inline-block;
     background-color: #2B2222;
     color: #5FD361;
+}
+
+.event-text {
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    color: #5FD361;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.event-button {
+  background-color: #352A2A;
+  border: none;
+  width: 100%;
+  height: auto;
+  color: #5FD361;
+  padding: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.event-name {
+    flex: 1;
+    word-break: break-all;
+    padding: 50px;
+    border: none;
+    resize: none;
+    background-color: #2B2222;
+    color: #5FD361;
+    box-shadow: none;
+    border: none;
+    border-style: none;
+    border-color: Transparent;
+    overflow: hidden;
+    outline: none;
+}
+
+.event-time {
+    flex: 1;
+    word-break: break-all;
+    padding: 50px;
+    border: none;
+    resize: none;
+    background-color: #2B2222;
+    color: #5FD361;
+    box-shadow: none;
+    border: none;
+    border-style: none;
+    border-color: Transparent;
+    overflow: hidden;
+    outline: none;
 }
