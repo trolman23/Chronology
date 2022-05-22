@@ -131,17 +131,7 @@ body {
     overflow: hidden;
     outline: none;
 }
-h1   {color: white;
-	font-family: verdana;
-  	font-size: 300%;
-	text-align: center;
-}
-p    {color: white;
-	font-family: 'Times New Roman';
-  	font-size: 160%;
-	margin: 25px;
-	text-align: center;
-}
+
 img {
   display: block;
   margin-left: auto;
