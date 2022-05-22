@@ -9,6 +9,18 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
+        <div class="timeline">
+            <div class="tdisplay">
+                <p id="time">getting time... </p>
+                <div class="pbardisplay">
+                    <p>00:00:00 <span style="float: right;">11:59:59</span></p>
+                    <div class="progress-bar"></div>
+                </div>
+                
+                <p id="pofd" style="float: right;">getting percent...</p>
+            </div>
+             
+        </div>
         <div class="main-content">
             <textarea class="editor"
                 spellcheck = "false";
@@ -40,12 +52,12 @@ __also bold__
 ___also both___
 
 ---
+⬆scroll up⬆ for the time scheduler!
 </textarea>
             <div class="preview"></div>
         </div>
+        
         <script src="showdown.js"></script>
         <script src="main.js"></script>
-<!--        <p>Preview Image.</p>
-        <img src="https://i.ibb.co/WpvVkck/uiprototype.png" alt="UI prototype"> -->
     </body>
 </html>

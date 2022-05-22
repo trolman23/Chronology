@@ -2,7 +2,8 @@ body {
     font-size: 16px;
     scroll-behavior: smooth;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(234, 230, 239);
+    color: #5FD361;
+    background-color: #1E1818;
 }
 
 html,
@@ -31,7 +32,8 @@ body {
     padding: 50px;
     border: none;
     resize: none;
-    background-color: rgb(243, 240, 245);
+    background-color: #352A2A;
+    color: #5FD361;
     box-shadow: none;
     border: none;
     border-style: none;
@@ -39,11 +41,27 @@ body {
     overflow: hidden;
     outline: none;
 }
+
 .preview {
     flex: 1;
     word-break: break-all;
     padding: 50px;
     border: 0;
     resize: none;
-    background-color: rgb(221, 218, 224);
+    background-color: #2B2222;
+}
+
+.tdisplay {
+    font-size: 90px;
+    overflow: auto;
+}
+
+.progress-bar {
+    width: 1%;
+    height: 30px;
+    background-color: #5FD361;
+}
+
+.pbardisplay {
+    font-size: 16px;
 }
