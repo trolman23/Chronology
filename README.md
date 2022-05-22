@@ -1,3 +1,5 @@
+![project logo](https://i.ibb.co/gmrP846/uhr.png)
+
 **Chronology** is your own schedule builder, customizable in almost any way you want. Make your time work for you!
 
 # What is Chronology?
