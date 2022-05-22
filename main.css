@@ -65,3 +65,23 @@ body {
 .pbardisplay {
     font-size: 16px;
 }
+
+.foreground {
+    display: flex;
+}
+
+.form {
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    background-color: #352A2A;
+    color: #5FD361;
+}
+
+.event-bar {
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    background-color: #2B2222;
+    color: #5FD361;
+}
